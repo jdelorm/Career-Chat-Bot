@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>*</pattern>
+    <template>
+        <delay>5</delay>I don't understand, let's start over. Begin my typing "Hi" or "Hello"
+    </template>
+  </category>
+</aiml>

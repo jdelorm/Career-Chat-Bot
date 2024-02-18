@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    
+    <category>
+        <pattern>HI</pattern>
+        <template>
+            <delay>5</delay>Hi, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HI *</pattern>
+        <template>
+            <delay>5</delay>Hi, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HELLO</pattern>
+        <template>
+            <delay>5</delay>Hello, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HELLO *</pattern>
+        <template>
+            <delay>5</delay>Hello, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SUP</pattern>
+        <template>
+            <delay>5</delay>Sup, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SUP *</pattern>
+        <template>
+            <delay>5</delay>Sup, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT *</pattern>
+        <template>
+            <delay>5</delay>What up, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHAT'S *</pattern>
+        <template>
+            <delay>5</delay>What's up, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>WHATS *</pattern>
+        <template>
+            <delay>5</delay>What's up, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOLA</pattern>
+        <template>
+            <delay>5</delay>Hola, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>HOLA *</pattern>
+        <template>
+            <delay>5</delay>Hola, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>YesDEGREE</pattern>
+        <template>
+            <delay>5</delay>Great! My name is Mr. Turing. May I ask, what is your name?
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NoDEGREE</pattern>
+        <template>
+            <delay>8</delay>Apologies, I can only recommend career choices for students graduating with a Bachelor's of Science in Computer Science degree.
+            <delay>3</delay>Goodbye.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>My name is *</pattern>
+        <template>
+            <delay>5</delay>It's my great pleasure to meet you. 
+            <delay>5</delay>Now then <set name = "student"><star /></set>, let's get started.
+            <delay>5</delay>Which of the following two words do you most identify with?
+            <reply>
+                <text>Problem Solver</text>
+                <postback>ProblemSolverAnswer</postback>
+            </reply>
+            <reply>
+                <text>Creative</text>
+                <postback>CreativeAnswer</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>ProblemSolverAnswer</pattern>
+        <template>
+            <delay>5</delay>Great. I am also an adept problem solver.
+            <delay>5</delay> Would you consider yourself a people person?
+            <reply>
+                <text>Yes</text>
+                <postback>PeoplePersonAnswer</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NotAPeoplePerson</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>PeoplePersonAnswer</pattern>
+        <template>
+            <delay>5</delay>My wife is also a people person. An attribute that few possess.
+            <delay>10</delay>So, you're skilled at finding solutions, as well as being rather gregarious.
+            <delay>10</delay><get name="student" />, you may find yourself enjoying working as an IT Help Desk Associate.
+            <delay>10</delay>An IT Help Desk Associate assists users with technical issues related to hardware, software, and network connectivity.
+            <delay>10</delay>They provide support via phone, email, or ticketing systems, troubleshooting problems and guiding users to solutions or escalating issues as needed.
+            <delay>10</delay>Below I have provided a link to a website that contains more information about this career choice, if you're interested.
+            <link>
+                <text>IT Help Desk Info</text>
+                <url>https://www.comptia.org/blog/10-qualities-every-help-desk-technician-should-have</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>NotAPeoplePerson</pattern>
+        <template>
+            <delay>5</delay>I am also not a people person.
+            <delay>10</delay>Do you feel more excited by the prospect of building and optimizing the systems and databases that power applications, or by the challenge of identifying and mitigating potential security threats to protect sensitive information?
+            <reply>
+                <text>Building and Optimizing</text>
+                <postback>BuildingAndOptimizingAnswer</postback>
+            </reply>
+            <reply>
+                <text>Mitigating Security Threats</text>
+                <postback>SecurityAnswer</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>BuildingAndOptimizingAnswer</pattern>
+        <template>
+            <delay>10</delay>So, you're a proficient solution-finder, an introvert, and prefer developing and enhancing. 
+            <delay>10</delay>I believe a career in Back End Developement would best suit your characteristics, <get name="student" />.
+            <delay>10</delay>Back-end Development involves building the core functionality of websites and applications.
+            <delay>10</delay>Back-end Developers use languages like Python, Java, Ruby, or PHP to write code that interacts with databases, manages user authentication, handles business logic, and processes requests from the front end. 
+            <delay>10</delay>if you're interested in learning more, I have attached a link that contains more information on Back End Development.
+            <link>
+                <text>Back End Development Info</text>
+                <url>https://www.geeksforgeeks.org/backend-development/</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>SecurityAnswer</pattern>
+        <template>
+            <delay>10</delay>I see, you're a practical strategist, solitary in nature, and a security-conscious individual.
+            <delay>10</delay><get name="student" />, I think a job in Information Security Analysis may be what you're looking for.
+            <delay>10</delay>An Information Security Analyst safeguards computer systems from cyber threats by assessing risks, implementing security measures, and responding to incidents.
+            <delay>10</delay>If this is something you're interested in pursuing, I have attached a link with more information.
+            <link>
+                <text>Information Security Analyst Info</text>
+                <url>https://www.hackerone.com/knowledge-center/information-security-analysts</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>CreativeAnswer</pattern>
+        <template>
+            <delay>7</delay>My wife is also a creative person.
+            <delay>10</delay>Do you find yourself more intrigued by the complexities of algorithms and data analysis, or by the visual and interactive aspects of user interfaces and design?
+            <reply>
+                <text>Algorithm and Data Complexities</text>
+                <postback>AnalyticalAnswer</postback>
+            </reply>
+            <reply>
+                <text>Visual and Interactive Design</text>
+                <postback>DesignAnswer</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>AnalyticalAnswer</pattern>
+        <template>
+            <delay>5</delay>I see, you're imaginative and possess a mind for learning.
+            <delay>10</delay><get name="student" />, I believe you should seriously consider pursuing a career in Artificial Intelligence.
+            <delay>10</delay>AI professionals develop algorithms and systems that enable computers to perform tasks requiring human-like intelligence, like understanding language, recognizing patterns, and making predictions.
+            <delay>12</delay>Below I have provided a link to a website with more information about jobs in AI.
+            <link>
+                <text>Artificial Intelligence (AI) Info</text>
+                <url>https://www.indeed.com/career-advice/finding-a-job/jobs-in-ai</url>
+            </link>
+        </template>
+    </category>
+    
+    <category>
+        <pattern>DesignAnswer</pattern>
+        <template>
+            <delay>5</delay>Of course, you're creative and you have a penchant for visual design. 
+            <delay>10</delay>I believe you would enjoy a career as a Front End Developer, <get name="student" />.
+            <delay>10</delay>A front-end developer designs and builds the parts of websites and apps that users see and interact with directly.
+            <delay>10</delay>They use languages such as HTML, CSS, and JavaScript to create visually appealing and user-friendly interfaces.
+            <delay>10</delay>Here is a link to more information concerning Front End Development.
+            <link>
+                <text>Front End Development Info</text>
+                <url>https://www.indeed.com/hire/job-description/front-end-developer</url>
+            </link>
+
+        </template>
+    </category>
+    
+    <category>
+        <pattern>THANK *</pattern>
+        <template>
+            <delay>5</delay>You're welcome
+        </template>
+    </category>
+    
+    <category>
+        <pattern>THANKS *</pattern>
+        <template>
+            <delay>5</delay>You're welcome.
+        </template>
+    </category>
+    
+    <category>
+        <pattern>THANKS</pattern>
+        <template>
+            <delay>5</delay>You're welcome.
+        </template>
+    </category>
+	
+</aiml>
