@@ -178,6 +178,38 @@
     </category>
     
     <category>
+        <pattern>YO *</pattern>
+        <template>
+            <delay>5</delay>Yo, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+     <category>
+        <pattern>YO</pattern>
+        <template>
+            <delay>5</delay>Yo, I'm here to assist you in selecting a career choice.
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
+            <reply>
+                <text>Yes</text>
+                <postback>YesDegree</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>NoDegree</postback>
+            </reply>
+        </template>
+    </category>
+    
+    <category>
         <pattern>YesDEGREE</pattern>
         <template>
             <delay>5</delay>Great! My name is Mr. Turing. May I ask, what is your name?
