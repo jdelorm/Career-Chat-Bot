@@ -5,7 +5,7 @@
         <pattern>HI</pattern>
         <template>
             <delay>5</delay>Hi, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -21,7 +21,7 @@
         <pattern>HI *</pattern>
         <template>
             <delay>5</delay>Hi, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -37,7 +37,7 @@
         <pattern>HELLO</pattern>
         <template>
             <delay>5</delay>Hello, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -53,7 +53,7 @@
         <pattern>HELLO *</pattern>
         <template>
             <delay>5</delay>Hello, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -69,7 +69,7 @@
         <pattern>SUP</pattern>
         <template>
             <delay>5</delay>Sup, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -85,7 +85,7 @@
         <pattern>SUP *</pattern>
         <template>
             <delay>5</delay>Sup, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -101,7 +101,7 @@
         <pattern>WHAT *</pattern>
         <template>
             <delay>5</delay>What up, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -117,7 +117,7 @@
         <pattern>WHAT'S *</pattern>
         <template>
             <delay>5</delay>What's up, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -133,7 +133,7 @@
         <pattern>WHATS *</pattern>
         <template>
             <delay>5</delay>What's up, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -149,7 +149,7 @@
         <pattern>HOLA</pattern>
         <template>
             <delay>5</delay>Hola, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -165,7 +165,7 @@
         <pattern>HOLA *</pattern>
         <template>
             <delay>5</delay>Hola, I'm here to assist you in selecting a career choice.
-            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science in Computer Science degree, is that correct?
+            <delay>10</delay>It's my understanding that you will soon graduate with a Bachelor's of Science degree in Computer Science, is that correct?
             <reply>
                 <text>Yes</text>
                 <postback>YesDegree</postback>
@@ -187,7 +187,7 @@
     <category>
         <pattern>NoDEGREE</pattern>
         <template>
-            <delay>8</delay>Apologies, I can only recommend career choices for students graduating with a Bachelor's of Science in Computer Science degree.
+            <delay>8</delay>Apologies, I can only recommend career choices for students graduating with a Bachelor's of Science degree in Computer Science.
             <delay>3</delay>Goodbye.
         </template>
     </category>
