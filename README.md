@@ -1,32 +1,23 @@
-Career Choice Chatbot
+Title: Career Chat Bot
 
+Purpose: To develop a career guidance bot using AIML (Artificial Intelligence Markup Language) that provides personalized career suggestions based on user input, such as job interests, skills, and preferences. 
+The bot uses pre-written AIML patterns to interpret and respond to user queries.
 
-This is a simple chatbot built using AIML (Artificial Intelligence Markup Language) to assist users in selecting a career path based on their responses.
+Author: jdelorm
 
-Greets users with a personalized message based on their responses.
+Contact: jdelorm@bot.com
 
-Asks users about their career preferences, such as whether they are problem solvers or creative individuals.
+Version: 1.2
 
-Provides career recommendations based on user input (e.g., IT Help Desk, Back End Developer, Information Security Analyst).
+Date: 2/18/24
 
-Includes links to external resources to help users learn more about suggested career options.
+IDE: PandoraBots
 
+Language: AIML (Artificial Intelligence Markup Language)
 
-How to Use
+How to Get the Program to Run:
 
-Run the chatbot using an AIML interpreter such as Program AB or any compatible AIML engine.
-
-Interact with the chatbot by typing simple greetings like "Hi", "Hello", "Yo", etc.
-
-The chatbot will guide you through a series of questions to help determine which career path might suit your personality and interests.
-
-Based on your responses, the chatbot will provide a career suggestion along with a link to more information about that career.
-
-
-Installation
-
-Download and install an AIML interpreter (e.g., Program AB).
-
-Place this AIML file in the appropriate folder for your AIML interpreter.
-
-Start the interpreter and interact with the chatbot.
+1. Create a free account at: https://home.pandorabots.com/home.html
+2. Create new bot in Code Editor
+3. Copy AIML code from https://github.com/jdelorm/Career-Chat-Bot
+4. Run bot and try interacting with the prompts
